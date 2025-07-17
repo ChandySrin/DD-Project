@@ -1,0 +1,84 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(80, 73, 73);
+    padding: 1rem;
+    margin: 2rem 0;
+    /* background: black; */
+}
+.heading span{
+    color: rgb(230, 144, 144);
+    font-size: 4rem;
+    font-weight: 600;
+}
+.about .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row .videro-container{
+    flex:1 1 40rem;
+    position: relative;
+    justify-items: center;
+}
+.about .row .videro-container video{
+    width: 97%;
+    border: 1.5rem solid rgb(230, 144, 144);
+    border-radius: 5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    height: 100%;
+    object-fit: cover;
+    justify-items: center;
+}
+.about .row .videro-container h3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+    mix-blend-mode: screen;
+}
+.about .row .content{
+    flex:1 1 40rem;
+    padding: 2rem;
+    text-align: center;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: rgb(80, 73, 73);  
+}
+.about .row .content p{
+    font-size: 1.5rem;
+    color: rgb(100, 74, 74);  
+    padding:5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: rgb(128, 94, 94);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    transition:.3s ease;
+}
+
+
+    
